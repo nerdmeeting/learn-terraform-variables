@@ -3,14 +3,13 @@
 
 terraform {
 
-  /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-      organization = "organization-name"
+      organization = "nerdmeeting-cloud1"
       workspaces {
         name = "learn-terraform-variables"
       }
   }
-  */
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
